@@ -1,0 +1,5 @@
+/.vscode/*
+/resources/cache/*
+/vendor/*
+composer.lock
+.DS_Store
