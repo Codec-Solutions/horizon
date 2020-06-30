@@ -22,7 +22,6 @@ class Main
     public function hello(Request $request, Response $response, array $attributes)
     {
         $data['name'] = $request->getAttribute("name");
-        $data['id'] = $request->getAttribute("id");
 
         return $response->view('hello', $data);
     }

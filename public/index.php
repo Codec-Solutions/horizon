@@ -4,7 +4,7 @@
  * Horizom - Light PHP Framework
  *
  * @package  Horizom
- * @author   Horizom Team <horizom-team@gmail.com>
+ * @author   Horizom Team <horizom.team@gmail.com>
  */
 
 if (version_compare(PHP_VERSION, '7.2.5') === -1) {
@@ -14,18 +14,21 @@ if (version_compare(PHP_VERSION, '7.2.5') === -1) {
     return;
 }
 
-/**
- * Framawork version
- */
-define('HORIZOM_VERSION', '1.0.0');
-
 define('HORIZOM_START', microtime(true));
 define('HORIZOM_ROOT', dirname(dirname(__FILE__)));
 define('HORIZOM_WEBROOT', '/public/');
-define('HORIZOM_PUBLIC', ROOT . WEBROOT);
-define('HORIZOM_APP', ROOT . '/app/');
-define('HORIZOM_CONFIG', ROOT . '/config/');
-define('HORIZOM_RESOURCES', ROOT . '/resources/');
+define('HORIZOM_PUBLIC', HORIZOM_ROOT . HORIZOM_WEBROOT);
+define('HORIZOM_APP', HORIZOM_ROOT . '/app/');
+define('HORIZOM_CONFIG', HORIZOM_ROOT . '/config/');
+define('HORIZOM_RESOURCES', HORIZOM_ROOT . '/resources/');
+
+/**
+ * App namespace
+ */
+define('HORIZOM_APP_NAMESPACE', "App");
+
+define('HORIZOM_BASE_PATH', "/repo/horizom/horizom");
+
 
 /*
 |--------------------------------------------------------------------------

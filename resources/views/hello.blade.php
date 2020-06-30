@@ -1,15 +1,7 @@
-<!DOCTYPE html>
-<html lang="en" class="no-js">
+@extends('layouts/default')
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Horizon hello page</title>
-</head>
-
-<body>
-    <h2>You asked for blog entry {{ $name }}.</h2>
-</body>
-
-</html>
+@section('content')
+<div class="block">
+    <h2>Your beautifull name is <strong>{{ $name }}</strong>.</h2>
+</div>
+@endsection
