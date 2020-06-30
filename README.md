@@ -1,3 +1,4 @@
+<p align="center"><img src="https://horizom.github.io/dist/images/horizom-logo-color.svg" width="400"></p>
 <h1 align="center">Horizom Framework</h1>
 
 <p align="center">
