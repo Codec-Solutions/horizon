@@ -1,5 +1,5 @@
 <p align="center"><img src="https://horizom.github.io/dist/images/horizom-logo-color.svg" width="400"></p>
-<h1 align="center">Horizom Framework</h1>
+<h3 align="center">Horizom Framework</h3>
 
 <p align="center">
 <a href="https://packagist.org/packages/horizom/horizom"><img src="https://poser.pugx.org/horizom/horizom/d/total.svg" alt="Total Downloads"></a>
