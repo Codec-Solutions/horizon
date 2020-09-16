@@ -1,5 +1,12 @@
-/.vscode/*
-/resources/cache/*
-/vendor/*
-composer.lock
 .DS_Store
+.phpunit.result.cache
+.env
+.env.backup
+
+/.vscode
+/node_modules
+/vendor
+
+npm-debug.log
+yarn-error.log
+composer.lock

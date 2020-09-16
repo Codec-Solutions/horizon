@@ -1,7 +1,0 @@
-{
-    "app.name": "Horizom",
-    "app.description": "Horizom",
-    "app.base_path": null,
-    "system.redirect.https": false,
-    "system.redirect.www": false
-}
