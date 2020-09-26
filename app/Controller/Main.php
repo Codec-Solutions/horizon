@@ -2,8 +2,8 @@
 
 namespace App\Controller;
 
-use Horizom\Http\Request;
-use Horizom\Http\Response;
+use Horizon\Http\Request;
+use Horizon\Http\Response;
 
 class Main
 {
@@ -14,7 +14,7 @@ class Main
 
     public function index(Request $request, Response $response, array $attributes)
     {
-        $data['name'] = "Horizom Framawork";
+        $data['name'] = "Horizon Framawork";
 
         return $response->view('index', $data);
     }

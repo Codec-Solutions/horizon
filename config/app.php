@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'app.name' => 'Horizom',
+    'app.name' => 'Horizon',
 
     /*
     |--------------------------------------------------------------------------
@@ -52,9 +52,9 @@ return [
     |
     */
 
-    'app.base_path' => '/repo/horizom/horizom',
+    'app.base_path' => '/repo/horizon/horizon',
 
-    'app.url' => 'http://localhost/repo/horizom/horizom',
+    'app.url' => 'http://localhost/repo/horizon/horizon',
 
     'app.asset_url' => null,
 

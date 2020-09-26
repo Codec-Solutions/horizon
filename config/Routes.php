@@ -1,7 +1,7 @@
 <?php
 
 use Aura\Router\Map;
-use Horizom\Http\Route;
+use Horizon\Http\Route;
 
 Route::get('home', '/', 'main@index');
 Route::get('hello', '/hello/{name}', 'main@hello');

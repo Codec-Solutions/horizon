@@ -2,7 +2,7 @@
 
 namespace App\Model;
 
-use Horizom\Database\Table;
+use Horizon\Database\Table;
 
 class User
 {
