@@ -1,5 +1,5 @@
 {
-    "name": "horizon/horizon",
+    "name": "codec/horizon",
     "description": "Light PHP framework",
     "type": "project",
     "version": "1.1.0",
