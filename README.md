@@ -12,7 +12,7 @@ Horizon is a light web application framework with expressive, elegant syntax. We
 
 ## Learning Horizon
 
-Horizon has the most simple documentation of any modern web application framework. The [Horizon documentation](https://horizom.github.io/framework) is in-depth and complete, making it a breeze to get started learning the framework.
+Horizon has the most simple documentation of any modern web application framework. The [Horizon documentation](http://codecci.com/framework) is in-depth and complete, making it a breeze to get started learning the framework.
 
 ## License
 
