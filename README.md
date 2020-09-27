@@ -17,3 +17,6 @@ Horizon has the most simple documentation of any modern web application framewor
 ## License
 
 The Horizon framework is open-sourced software licensed under the [MIT license](LICENSE.md).
+
+## Installation
+Via composer : composer create-project --prefer-dist codec/horizon
