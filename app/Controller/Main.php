@@ -14,7 +14,7 @@ class Main
 
     public function index(Request $request, Response $response, array $attributes)
     {
-        $data['name'] = "Horizon Framawork";
+        $data['name'] = "Horizon Framework";
 
         return $response->view('index', $data);
     }
