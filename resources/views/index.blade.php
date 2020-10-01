@@ -11,7 +11,7 @@
             <li><a href="#" title="See the documentation">Documentation</a></li>
             <li>Thank !</li>
             <li>
-                <a href="https://github.com/Hen-Dricks/horizon-framework" title="Fork on github"
+                <a href="https://github.com/Codec-Solutions/horizon" title="Fork on github"
                     target="blank">Github</a>
             </li>
         </ul>

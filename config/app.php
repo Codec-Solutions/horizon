@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'app.base_path' => '/repo/horizon/horizon',
+    'app.base_path' => '',
 
     'app.url' => 'http://localhost/repo/horizon/horizon',
 
