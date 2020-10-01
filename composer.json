@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": "^7.3.1",
-        "codec/framework": "^1.1.1"
+        "codec/core": "^1.1.1"
     },
     "require-dev": {
         "digitalnature/php-ref": "^1.3"
