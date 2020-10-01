@@ -2,27 +2,28 @@
 
 namespace App\Model;
 
-use Horizon\Database\Table;
+use Illuminate\Database\Eloquent\Model;
 
-class User
+class User extends Model
 {
     /**
-     * @return bool object
+     * The table associated with the model.
+     *
+     * @var string
      */
-    public static function login(string $username, string $password)
-    {
-        $table = new Table("users");
-
-        return $table->select("*")->where("ussername = $username AND password = $password")->toArray()->find();
-    }
+    protected $table = 'users';
 
     /**
-     * @return bool object
+     * The attributes that are mass assignable.
+     *
+     * @var array
      */
-    public static function signup(array $data, int $userId)
-    {
-        $table = new Table("users");
+    protected $fillable = ['id', 'email', 'created_at'];
 
-        return $table->update($data)->where("id = $userId")->save();
-    }
+    /**
+     * The connection name for the model.
+     *
+     * @var string
+     */
+    protected $connection = 'local';
 }

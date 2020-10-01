@@ -2,7 +2,7 @@
 
 if (version_compare(PHP_VERSION, '7.3.1') === -1) {
     $version = explode('-', PHP_VERSION);
-    echo 'This version of Horizon requires at least PHP 7.3.1. ';
+    echo 'This version of BabiPHP requires at least PHP 7.3.1. ';
     echo 'You are currently running ' . $version[0] . '. Please update your PHP version.';
     return;
 }

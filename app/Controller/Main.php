@@ -4,6 +4,7 @@ namespace App\Controller;
 
 use Horizon\Http\Request;
 use Horizon\Http\Response;
+use App\Model\User;
 
 class Main
 {
@@ -14,7 +15,10 @@ class Main
 
     public function index(Request $request, Response $response, array $attributes)
     {
-        $data['name'] = "Horizon Framework";
+        $user = User::where('id', 1)->first()->toArray();
+
+        $data['user'] = $user;
+        $data['name'] = "Horizon Framawork";
 
         return $response->view('index', $data);
     }

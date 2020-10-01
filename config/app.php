@@ -54,7 +54,7 @@ return [
 
     'app.base_path' => '',
 
-    'app.url' => 'http://localhost/repo/horizon/horizon',
+    'app.url' => 'http://localhost/horizon',
 
     'app.asset_url' => null,
 
