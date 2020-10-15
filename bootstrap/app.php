@@ -15,6 +15,7 @@ define('HORIZON_APP', HORIZON_ROOT . '/app/');
 define('HORIZON_CONFIG', HORIZON_ROOT . '/config/');
 define('HORIZON_RESOURCES', HORIZON_ROOT . '/resources/');
 define('HORIZON_APP_NAMESPACE', 'App');
+define('HORIZON_NOTFOUND_PAGE', 'error');
 
 require HORIZON_ROOT . '/vendor/autoload.php';
 
