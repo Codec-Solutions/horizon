@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="block">
-    <h1>Horizon Framawork</h1>
+    <h1>Horizon Framework</h1>
     <h2>Introducing the future of framework</h2>
     <p>Welcome to the light PHP framework.</p>
 
