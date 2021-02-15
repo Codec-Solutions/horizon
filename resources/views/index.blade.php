@@ -9,7 +9,7 @@
     <div class="menu">
         <ul>
             <li>
-                <a href="https://codecci.com/" title="See the documentation" target="blank">Documentation</a>
+                <a href="https://devs-codec.gitbook.io/horizon/" title="See the documentation" target="blank">Documentation</a>
             </li>
             <li>Thank !</li>
             <li>
