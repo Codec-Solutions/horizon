@@ -1,4 +1,4 @@
-<p align="center"><img src="http://codecci.com/img/logo.svg" width="400"></p>
+
 
 <p align="center">
 <a href="https://packagist.org/packages/codec/horizon"><img src="https://poser.pugx.org/codec/horizon/downloads" alt="Total Downloads"></a>
