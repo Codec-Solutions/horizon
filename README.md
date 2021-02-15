@@ -1,9 +1,9 @@
 <p align="center"><img src="https://raw.githubusercontent.com/horizom/horizom.github.io/master/images/horizom-logo-color.svg" width="400"></p>
 
 <p align="center">
-<a href="https://packagist.org/packages/horizom/horizom"><img src="https://poser.pugx.org/horizom/horizom/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/horizom/horizom"><img src="https://poser.pugx.org/horizom/horizom/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/horizom/horizom"><img src="https://poser.pugx.org/horizom/horizom/license.svg" alt="License"></a>
+<a href="https://packagist.org/packages/codec/horizon"><img src="https://poser.pugx.org/codec/horizon/downloads" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/codec/horizon"><img src="https://poser.pugx.org/codec/horizon/v" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/codec/horizon"><img src="https://poser.pugx.org/codec/horizon/license" alt="License"></a>
 </p>
 
 ## About Horizon
